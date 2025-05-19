@@ -1,0 +1,29 @@
+{
+    "name": "alex-yashin/pina-settings",
+    "keywords": ["php"],
+    "license": "MIT",
+    "homepage": "https://github.com/alex-yashin/pina-settings/",
+    "support": {
+        "issues": "https://github.com/alex-yashin/pina-settings/issues",
+        "source": "https://github.com/alex-yashin/pina-settings/"
+    },
+    "authors": [
+        {
+            "name": "Alex Yashin",
+            "email": "alex-yashin@ya.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "pinahq/framework": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PinaSettings\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
