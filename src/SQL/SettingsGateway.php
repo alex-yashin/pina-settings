@@ -9,6 +9,10 @@ class SettingsGateway extends TableDataGateway
 {
     protected static $table = 'settings';
 
+    /**
+     * @return Schema
+     * @throws \Exception
+     */
     public function getSchema(): Schema
     {
         $schema = parent::getSchema();

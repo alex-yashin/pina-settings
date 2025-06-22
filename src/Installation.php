@@ -2,13 +2,14 @@
 
 namespace PinaSettings;
 
+use Exception;
 use Pina\InstallationInterface;
 use PinaSettings\SQL\SettingsGateway;
 
 class Installation implements InstallationInterface
 {
     /**
-     * @throws \Exception
+     * @throws Exception
      */
     public function install()
     {
